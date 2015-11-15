@@ -1,0 +1,178 @@
+@charset "utf-8";
+
+body, header, nav, div, footer, form{
+	display:block;
+}
+
+html{
+	font-size: 100%
+}
+
+img, embed, object, video {
+max-width: 100%;
+height: auto;
+width: auto\9; /* ie8 */
+}
+
+body {
+	background-attachment: fixed;
+	background-image: url(../images/star.JPG);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: contain;
+	background-color: rgb(2,2,0);
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+header{
+	height: 10%
+}
+
+h1 {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 2em;
+	color: rgb(0,210,250);
+	text-align: center;
+	text-shadow: rgb(140,140,140) 2px 3px 5px;
+}
+h2 {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 1.75em;
+	color: rgb(0,210,250);
+	text-align: center;
+	text-shadow: rgb(140,140,140) 2px 3px 5px;
+}
+
+nav{
+	float:left;
+	width:15%;
+}
+nav ul{
+	list-style-type:none;
+	width:100%;
+}
+
+nav a, nav a:visited{
+	text-decoration:none;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 1.5 em;
+	color: rgb(0,210,250);
+	text-align: left;
+	text-shadow: rgb(140,140,140) 2px 3px 4px;
+	font-weight: bold;	
+}
+
+nav a:hover{
+	text-decoration:none;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 1.5 em;
+	color: rgb(0,210,250);
+	text-align: left;
+	text-shadow: rgb(140,140,140) 2px 3px 4px;
+	font-weight: bold;
+}
+
+nav a img{
+	visibility:hidden;
+	vertical-align: middle;
+}
+
+nav a:hover img{
+	visibility:visible;
+	vertical-align: middle;
+}
+
+#container{
+	font-size: 1em;
+	color: white;
+	text-shadow: #646464 1px 2px 3px;
+	background-color: rgba(2,2,0, .55);
+	border-style: solid;
+	border-color: rgb(237,51,25);
+	padding: 1%;
+	padding-top: 0px;
+	width: 65%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:3%;
+	text-align: center;
+}
+
+a, a:visited {
+	text-decoration: none;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	color: rgb(0,210,250);
+	text-shadow: rgb(140,140,140) 2px 3px 4px;
+	font-weight: bold;
+}
+
+table{
+	border-collapse: collapse;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+table th, table td {
+	padding: .4em;
+}
+
+table tr{
+	border-bottom: 2px solid rgb(0,210,250);
+	border-collapse: collapse;
+}
+
+table tr:last-of-type {
+	border:none;
+}
+
+table td{
+	font-size:.8em;
+}
+
+.leftalign{
+	float:left;
+	padding-left: 2%;
+}
+
+.center{
+	text-align:center;
+	padding: 0px;
+	margin: 0px;
+}
+
+.rightalign{
+	float:right;
+	padding-left: 2%;
+}
+
+form{
+	text-align:center;
+	width:100%;
+}
+
+@media screen and (max-width: 760px) {
+	nav {
+text-align: center;
+}
+
+nav ul {
+	margin-left: 0;
+	padding-left: 0;
+	white-space: wrap;
+	height:10%;
+}
+
+nav ul li {
+	display: inline;
+	list-style-type: none;
+	float:left;
+}
+
+nav img { 
+display:none;
+}
+
+nav a:hover{
+color: rgb(237,51,25);
+}
+}

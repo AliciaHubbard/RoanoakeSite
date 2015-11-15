@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rs_delete" value="name:a_name;datatype:202,name:a_description;datatype:202,name:a_admission;datatype:202,name:type;datatype:202,name:approved;datatype:3" />
+</info>
